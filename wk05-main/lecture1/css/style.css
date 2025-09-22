@@ -1,0 +1,97 @@
+  section{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: lightgray;
+  }
+
+  /* Character card styling */
+  .grid div {
+    background: #f2f2f2;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid blue;
+  }
+  
+  /* Images */
+  .grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .gallery img {
+    border: 3px yellow dashed;
+    border-radius: 50px;
+
+  }
+  h1 {
+  text-align: center;     
+  margin: 0 auto 2rem;    
+  font-size: 2.5rem;      
+  font-weight: bold;
+}
+
+  
+  /* Headings */
+  .character h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+    
+  .grid dt {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .grid dd {
+    margin: 0;
+    color: #555;
+  }
+  
+
+  /* **** Student code starts here */
+
+  body {
+  background-color: #d3d3d3; 
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.photo-frame {
+  border: 8px solid blue;     
+  background-color: gray;     
+  padding: 10px;
+}
+
+.photo-frame img {
+  display: block;
+  max-width: 300px;
+  height: auto;
+}
+
+
+body {
+  background-color: #d3d3d3;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start; 
+  min-height: 100vh;
+  padding: 2rem;
+}
